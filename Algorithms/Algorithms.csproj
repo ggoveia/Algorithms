@@ -48,17 +48,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BinaryGap.cs" />
-    <Compile Include="BubbleSort.cs" />
+    <Compile Include="Problems\BinaryGap.cs" />
+    <Compile Include="Types\Searching\BinarySearch.cs" />
+    <Compile Include="Types\Sorting\BubbleSort.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QuickSort.cs" />
-    <Compile Include="AritmaticMachine.cs" />
-    <Compile Include="Test\BinaryGapTest.cs" />
-    <Compile Include="OddOccurrencesInArray.cs" />
-    <Compile Include="LargestRightCircleShift.cs" />
-    <Compile Include="Test\LargestRightCircleShiftTest.cs" />
-    <Compile Include="Test\OddOccurrencesInArrayTest.cs" />
+    <Compile Include="Types\Sorting\QuickSort.cs" />
+    <Compile Include="Problems\AritmaticMachine.cs" />
+    <Compile Include="Problems\OddOccurrencesInArray.cs" />
+    <Compile Include="Problems\LargestRightCircleShift.cs" />
     <Compile Include="Test\TestSorting.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -68,6 +66,7 @@
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
