@@ -56,6 +56,7 @@
     <Compile Include="ProblemsTests\BinaryGapTest.cs" />
     <Compile Include="ProblemsTests\LargestRightCircleShiftTest.cs" />
     <Compile Include="ProblemsTests\OddOccurrencesInArrayTest.cs" />
+    <Compile Include="Types\Sorting\QuickSortTests.cs" />
     <Compile Include="UnitTest1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -68,6 +69,7 @@
       <Name>Algorithms</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
